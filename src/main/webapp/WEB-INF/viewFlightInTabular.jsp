@@ -21,7 +21,6 @@
 </tr>
 <c:forEach var="flight" items="${flights }">
 <tr>
-
 <td>${flight.flightNumber} </td>
 <td>${flight.flightName}</td>
 <td>${flight.flightSource}</td>

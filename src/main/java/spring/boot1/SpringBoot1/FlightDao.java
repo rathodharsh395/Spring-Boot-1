@@ -23,4 +23,9 @@ public class FlightDao implements FlightService {
 		return listOfFlight;
 	}
 
+	public Flight getFlightByNumber(int number) {
+		Flight flight = repos.getById(number);
+		return flight;
+	}
+
 }
